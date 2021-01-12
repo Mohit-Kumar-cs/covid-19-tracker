@@ -1,11 +1,11 @@
     body {
         background-image: url(corona1.jpg);
-        background-color: rgb(226, 105, 226);
+        background-color: rgb(153, 235, 238);
         background-size: cover;
         background-attachment: fixed;
         font-size: 2em;
         font-family: 'Frehdoka One', cursive;
-        text-shadow: 4px 4px black;
+        text-shadow: 3px 3px black;
     }
     
     .container {
@@ -19,23 +19,25 @@
     }
     
     .h2 {
-        margin-bottom: 0;
         color: gold;
         text-align: center;
     }
     
     .h3 {
-        text-shadow: 4px 4px black;
+        text-shadow: 3px 3px black;
     }
     
     .record {
-        text-shadow: 4px 4px black;
+        text-shadow: 3px 3px black;
         color: greenyellow;
     }
     
     .cases {
         display: flex;
         flex-direction: row;
+        position: relative;
+        box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        padding: 0 3%;
     }
     
     .cases-item {
@@ -48,6 +50,9 @@
     .recovered {
         display: flex;
         flex-direction: row;
+        position: relative;
+        box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        padding: 0 3%;
     }
     
     .recovered-item {
@@ -60,6 +65,9 @@
     .active {
         display: flex;
         flex-direction: row;
+        position: relative;
+        box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        padding: 0 3%;
     }
     
     .active-item {
@@ -70,9 +78,11 @@
     }
     
     .deaths {
-        color: white;
         display: flex;
         flex-direction: row;
+        position: relative;
+        box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        padding: 0 3%;
     }
     
     .deaths-item {
@@ -83,9 +93,11 @@
     }
     
     .updated {
-        color: white;
         display: flex;
         flex-direction: row;
+        position: relative;
+        box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        padding: 0 3%;
     }
     
     .updated-item {
@@ -95,15 +107,8 @@
         text-align: center;
     }
     
-    .hr {
-        width: 30%;
-        height: 0.1em;
-        background-color: black;
-        border-bottom: 2px solid black;
-    }
-    
-    hr {
-        height: 0.1em;
-        background-color: black;
-        border-bottom: 2px solid black;
+    #time {
+        text-align: center;
+        text-shadow: 2px 2px black;
+        color: white;
     }
