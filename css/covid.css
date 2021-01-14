@@ -1,6 +1,6 @@
     body {
-        background-image: url(corona1.jpg);
-        background-color: rgb(153, 235, 238);
+        background-image: url(nasa-1lfI7wkGWZ4-unsplash.jpg);
+        background-color: rgb(105, 222, 226);
         background-size: cover;
         background-attachment: fixed;
         font-size: 2em;
@@ -37,6 +37,7 @@
         flex-direction: row;
         position: relative;
         box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        margin: 0 3%;
         padding: 0 3%;
     }
     
@@ -52,6 +53,7 @@
         flex-direction: row;
         position: relative;
         box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        margin: 0 3%;
         padding: 0 3%;
     }
     
@@ -67,6 +69,7 @@
         flex-direction: row;
         position: relative;
         box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        margin: 0 3%;
         padding: 0 3%;
     }
     
@@ -82,6 +85,7 @@
         flex-direction: row;
         position: relative;
         box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        margin: 0 3%;
         padding: 0 3%;
     }
     
@@ -97,6 +101,7 @@
         flex-direction: row;
         position: relative;
         box-shadow: 0 5px 10px 12px rgba(0, 0, 0, 0.5);
+        margin: 0 3%;
         padding: 0 3%;
     }
     
